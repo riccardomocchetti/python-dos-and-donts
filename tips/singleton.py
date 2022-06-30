@@ -29,9 +29,9 @@ class B:
 
 # Usage
 # a = A() # raises an error
-a = A.instance()
-a = A.instance()
-print(a)
-b = B()
-b = B()
-print(b)
+a1 = A.instance()
+a2 = A.instance()
+print(f"a1 same as a2: {a1 is a2}")
+b1 = B()
+b2 = B()
+print(f"b1 same as b2: {b1 is b2}")
